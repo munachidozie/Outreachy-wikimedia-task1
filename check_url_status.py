@@ -14,5 +14,5 @@ def check_url_status(csv_file, target_url=None):
             except requests.exceptions.RequestException as e:
                 print(f"(Error) {url}: {e}")
 
-file_path = r"Task 2 - Intern.csv"
+file_path = "Task 2 - Intern.csv"
 check_url_status(file_path)
